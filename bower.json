@@ -1,0 +1,22 @@
+{
+  "name": "unique-tech",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Tony Burkun"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/TonyBurkun/unique-tech",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "1.7.*",
+    "slick-carousel": "^1.6.0"
+  }
+}
