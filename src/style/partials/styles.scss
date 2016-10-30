@@ -120,7 +120,7 @@
         position: absolute;
         left: 300px;
         top: 30px;
-        background: url("../../img/dotted_line.png") no-repeat center center;
+        background: url($image-source + "dotted_line.png") no-repeat center center;
         width: 393px;
         height: 50px;
       }
@@ -142,13 +142,13 @@
   }
   .slide-1 {
     .slide-img {
-      background: url("../../img/macbook_pro_retina_slider.png") no-repeat center center;
+      background: url($image-source + "macbook_pro_retina_slider.png") no-repeat center center;
     }
   }
 
   .slide-2 {
     .slide-img {
-      background: url("../../img/computer_slider.png") no-repeat center center;
+      background: url($image-source +  "computer_slider.png") no-repeat center center;
     }
   }
 
@@ -241,7 +241,7 @@
     right: 15px;
     top: 50%;
     margin-top: -15px;
-    background: url("../../img/view_btn_ico.png") no-repeat center center;
+    background: url($image-source + "view_btn_ico.png") no-repeat center center;
     width: 30px;
     height: 30px;
 
